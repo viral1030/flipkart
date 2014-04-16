@@ -1,0 +1,456 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />  
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-flipkart">
+              <span class="suite-name border-passed">flipkart</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-flipkart">
+                    <span>C:\Users\Viral\git\flipkart\flipkart\Build\IndexSuite.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-flipkart">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-flipkart">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-flipkart">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-flipkart">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-flipkart">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-flipkart">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">7 methods,   7 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-flipkart" class="hide-methods passed suite-flipkart"> (hide)</a> <!-- hide-methods passed suite-flipkart -->
+                      <a href="#" panel-name="suite-flipkart" class="show-methods passed suite-flipkart"> (show)</a> <!-- show-methods passed suite-flipkart -->
+                    </span>
+                    <div class="method-list-content passed suite-flipkart">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-flipkart" title="com.flipkart.verification.Index" hash-for-method="dataproviderusedemo(mahesh)">dataproviderusedemo(mahesh)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-flipkart" title="com.flipkart.verification.Index" hash-for-method="dataproviderusedemo(viral)">dataproviderusedemo(viral)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-flipkart" title="com.flipkart.verification.Index" hash-for-method="dataproviderusedemo(manoj)">dataproviderusedemo(manoj)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-flipkart" title="com.flipkart.verification.Index" hash-for-method="flipkart_search">flipkart_search</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-flipkart" title="com.flipkart.verification.Index" hash-for-method="flipkart_sign">flipkart_sign</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-flipkart" title="com.flipkart.verification.Index" hash-for-method="test1">test1</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-flipkart" title="com.flipkart.verification.Index" hash-for-method="test2">test2</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-flipkart -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-flipkart" class="panel flipkart">
+          <div class="suite-flipkart-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.flipkart.verification.Index</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="dataproviderusedemo(mahesh)">
+                  </a> <!-- dataproviderusedemo(mahesh) -->
+                  <span class="method-name">dataproviderusedemo</span>
+                  <span class="parameters">(mahesh)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="dataproviderusedemo(viral)">
+                  </a> <!-- dataproviderusedemo(viral) -->
+                  <span class="method-name">dataproviderusedemo</span>
+                  <span class="parameters">(viral)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="dataproviderusedemo(manoj)">
+                  </a> <!-- dataproviderusedemo(manoj) -->
+                  <span class="method-name">dataproviderusedemo</span>
+                  <span class="parameters">(manoj)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="flipkart_search">
+                  </a> <!-- flipkart_search -->
+                  <span class="method-name">flipkart_search</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="flipkart_sign">
+                  </a> <!-- flipkart_sign -->
+                  <span class="method-name">flipkart_sign</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test1">
+                  </a> <!-- test1 -->
+                  <span class="method-name">test1</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test2">
+                  </a> <!-- test2 -->
+                  <span class="method-name">test2</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-flipkart-class-passed -->
+        </div> <!-- panel flipkart -->
+        <div panel-name="test-xml-flipkart" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\Viral\git\flipkart\flipkart\Build\IndexSuite.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite thread-count=&quot;1&quot; verbose=&quot;10&quot; name=&quot;flipkart&quot;&gt;
+  &lt;parameter name=&quot;selenium.url&quot; value=&quot;https://www.flipkart.com&quot;/&gt;
+  &lt;parameter name=&quot;selenium.browser&quot; value=&quot;firefox&quot;/&gt;
+  &lt;parameter name=&quot;selenium.port&quot; value=&quot;4444&quot;/&gt;
+  &lt;parameter name=&quot;selenium.host&quot; value=&quot;localhost&quot;/&gt;
+  &lt;test name=&quot;flipkart_search&quot;&gt;
+    &lt;parameter name=&quot;myname&quot; value=&quot;viral&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.flipkart.verification.Index&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;flipkart_search&quot;/&gt;
+          &lt;include name=&quot;flipkart_sign&quot;/&gt;
+          &lt;include name=&quot;dataproviderusedemo&quot;/&gt;
+          &lt;include name=&quot;test1&quot;/&gt;
+          &lt;include name=&quot;test2&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- com.flipkart.verification.Index --&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- flipkart_search --&gt;
+&lt;/suite&gt; &lt;!-- flipkart --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-flipkart" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for flipkart</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">flipkart_search (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-flipkart" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for flipkart</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-flipkart" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for flipkart</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_flipkart');
+function tableData_flipkart() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(7);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'flipkart_search')
+data.setCell(0, 2, 'com.flipkart.verification.Index')
+data.setCell(0, 3, 28550);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'flipkart_sign')
+data.setCell(1, 2, 'com.flipkart.verification.Index')
+data.setCell(1, 3, 25113);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'dataproviderusedemo')
+data.setCell(2, 2, 'com.flipkart.verification.Index')
+data.setCell(2, 3, 15);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'dataproviderusedemo')
+data.setCell(3, 2, 'com.flipkart.verification.Index')
+data.setCell(3, 3, 0);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'test1')
+data.setCell(4, 2, 'com.flipkart.verification.Index')
+data.setCell(4, 3, 0);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'dataproviderusedemo')
+data.setCell(5, 2, 'com.flipkart.verification.Index')
+data.setCell(5, 3, 0);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'test2')
+data.setCell(6, 2, 'com.flipkart.verification.Index')
+data.setCell(6, 3, 0);
+window.suiteTableData['flipkart']= { tableData: data, tableDiv: 'times-div-flipkart'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 53 seconds</span>
+              <div id="times-div-flipkart">
+              </div> <!-- times-div-flipkart -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-flipkart" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for flipkart</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">flipkart_search</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output"></br>step 1: open the flipcart homepage</span>
+                <span class="reporter-method-output"></br>step 2: enter the keyword into searchbox : 'nokia' </span>
+                <span class="reporter-method-output"></br>step 3: click on search button </span>
+                <span class="reporter-method-output"></br>step 4:  click on price range filter price range : Rs. 10001 - Rs. 18000 </span>
+                <span class="reporter-method-output"></br>step 5: click on Brand filter 1</span>
+                <span class="reporter-method-output"></br>step 6: click on Brand filter 2</span>
+                <span class="reporter-method-output"><br></br>PASS</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">flipkart_sign</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output"></br>step 1:click on login button </span>
+                <span class="reporter-method-output"></br>step 2:click on signup button </span>
+                <span class="reporter-method-output"></br>step 3:enter the deatil of signup   </br> Email: Krazzyvir@gmail.com  </br> Password : 1028krazzyvir </span>
+                <span class="reporter-method-output"></br>step 4:click on signupnow button</span>
+                <span class="reporter-method-output"><br></br>PASS</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-flipkart" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">1 ignored method</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.flipkart.verification.Index</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">flipkart_filter</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-flipkart" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.flipkart.verification.Index</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">fetchSuiteConfiguration(org.testng.TestRunner@2b323e)</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(public void com.flipkart.verification.Index.flipkart_search())</span>
+                <span class="method-start">16 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">flipkart_search</span>
+                <span class="method-start">28663 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=flipkart_search status=SUCCESS method=Index.flipkart_search()[pri:0, instance:com.f...)</span>
+                <span class="method-start">57214 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(public void com.flipkart.verification.Index.flipkart_sign())</span>
+                <span class="method-start">57848 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">flipkart_sign</span>
+                <span class="method-start">80212 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=flipkart_sign status=SUCCESS method=Index.flipkart_sign()[pri:0, instance:com.flipk...)</span>
+                <span class="method-start">105325 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(public void com.flipkart.verification.Index.dataproviderusedemo(java.lang.String))</span>
+                <span class="method-start">106059 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">dataproviderusedemo(viral)</span>
+                <span class="method-start">126846 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=dataproviderusedemo status=SUCCESS method=Index.dataproviderusedemo(java.lang.Strin...)</span>
+                <span class="method-start">126846 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(public void com.flipkart.verification.Index.dataproviderusedemo(java.lang.String))</span>
+                <span class="method-start">127456 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">dataproviderusedemo(mahesh)</span>
+                <span class="method-start">145652 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=dataproviderusedemo status=SUCCESS method=Index.dataproviderusedemo(java.lang.Strin...)</span>
+                <span class="method-start">145667 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(public void com.flipkart.verification.Index.dataproviderusedemo(java.lang.String))</span>
+                <span class="method-start">146199 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">dataproviderusedemo(manoj)</span>
+                <span class="method-start">164451 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=dataproviderusedemo status=SUCCESS method=Index.dataproviderusedemo(java.lang.Strin...)</span>
+                <span class="method-start">164451 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(public void com.flipkart.verification.Index.test1())</span>
+                <span class="method-start">165030 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">test1</span>
+                <span class="method-start">185364 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=test1 status=SUCCESS method=Index.test1()[pri:0, instance:com.flipkart.verification...)</span>
+                <span class="method-start">185379 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(public void com.flipkart.verification.Index.test2())</span>
+                <span class="method-start">186052 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">test2</span>
+                <span class="method-start">205354 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=test2 status=SUCCESS method=Index.test2()[pri:0, instance:com.flipkart.verification...)</span>
+                <span class="method-start">205354 ms</span>
+              </div> <!-- configuration-method after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>

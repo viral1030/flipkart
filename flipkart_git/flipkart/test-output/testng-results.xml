@@ -1,0 +1,299 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="7" passed="7">
+  <reporter-output>
+    <line>
+      <![CDATA[</br>step 1: open the flipcart homepage]]>
+    </line>
+    <line>
+      <![CDATA[</br>step 2: enter the keyword into searchbox : 'nokia' ]]>
+    </line>
+    <line>
+      <![CDATA[</br>step 3: click on search button ]]>
+    </line>
+    <line>
+      <![CDATA[</br>step 4:  click on price range filter price range : Rs. 10001 - Rs. 18000 ]]>
+    </line>
+    <line>
+      <![CDATA[</br>step 5: click on Brand filter 1]]>
+    </line>
+    <line>
+      <![CDATA[</br>step 6: click on Brand filter 2]]>
+    </line>
+    <line>
+      <![CDATA[<br></br>PASS]]>
+    </line>
+    <line>
+      <![CDATA[</br>step 1:click on login button ]]>
+    </line>
+    <line>
+      <![CDATA[</br>step 2:click on signup button ]]>
+    </line>
+    <line>
+      <![CDATA[</br>step 3:enter the deatil of signup   </br> Email: Krazzyvir@gmail.com  </br> Password : 1028krazzyvir ]]>
+    </line>
+    <line>
+      <![CDATA[</br>step 4:click on signupnow button]]>
+    </line>
+    <line>
+      <![CDATA[<br></br>PASS]]>
+    </line>
+  </reporter-output>
+  <suite name="flipkart" duration-ms="205933" started-at="2014-04-15T05:24:10Z" finished-at="2014-04-15T05:27:36Z">
+    <groups>
+    </groups>
+    <test name="flipkart_search" duration-ms="205933" started-at="2014-04-15T05:24:10Z" finished-at="2014-04-15T05:27:36Z">
+      <class name="com.flipkart.verification.Index">
+        <test-method status="PASS" signature="fetchSuiteConfiguration(org.testng.ITestContext)[pri:0, instance:com.flipkart.verification.Index@1dfafd1]" name="fetchSuiteConfiguration" is-config="true" duration-ms="16" started-at="2014-04-15T10:54:10Z" finished-at="2014-04-15T10:54:10Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@2b323e]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fetchSuiteConfiguration -->
+        <test-method status="PASS" signature="setUp(java.lang.reflect.Method)[pri:0, instance:com.flipkart.verification.Index@1dfafd1]" name="setUp" is-config="true" duration-ms="28647" started-at="2014-04-15T10:54:10Z" finished-at="2014-04-15T10:54:39Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.flipkart.verification.Index.flipkart_search()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="flipkart_search()[pri:0, instance:com.flipkart.verification.Index@1dfafd1]" name="flipkart_search" duration-ms="28550" started-at="2014-04-15T10:54:39Z" finished-at="2014-04-15T10:55:08Z">
+          <reporter-output>
+            <line>
+              <![CDATA[</br>step 1: open the flipcart homepage]]>
+            </line>
+            <line>
+              <![CDATA[</br>step 2: enter the keyword into searchbox : 'nokia' ]]>
+            </line>
+            <line>
+              <![CDATA[</br>step 3: click on search button ]]>
+            </line>
+            <line>
+              <![CDATA[</br>step 4:  click on price range filter price range : Rs. 10001 - Rs. 18000 ]]>
+            </line>
+            <line>
+              <![CDATA[</br>step 5: click on Brand filter 1]]>
+            </line>
+            <line>
+              <![CDATA[</br>step 6: click on Brand filter 2]]>
+            </line>
+            <line>
+              <![CDATA[<br></br>PASS]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- flipkart_search -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.flipkart.verification.Index@1dfafd1]" name="tearDown" is-config="true" duration-ms="634" started-at="2014-04-15T10:55:08Z" finished-at="2014-04-15T10:55:08Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=flipkart_search status=SUCCESS method=Index.flipkart_search()[pri:0, instance:com.flipkart.verification.Index@1dfafd1] output=</br>step 1: open the flipcart homepage]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp(java.lang.reflect.Method)[pri:0, instance:com.flipkart.verification.Index@1dfafd1]" name="setUp" is-config="true" duration-ms="22364" started-at="2014-04-15T10:55:08Z" finished-at="2014-04-15T10:55:31Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.flipkart.verification.Index.flipkart_sign()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="flipkart_sign()[pri:0, instance:com.flipkart.verification.Index@1dfafd1]" name="flipkart_sign" duration-ms="25113" started-at="2014-04-15T10:55:31Z" finished-at="2014-04-15T10:55:56Z">
+          <reporter-output>
+            <line>
+              <![CDATA[</br>step 1:click on login button ]]>
+            </line>
+            <line>
+              <![CDATA[</br>step 2:click on signup button ]]>
+            </line>
+            <line>
+              <![CDATA[</br>step 3:enter the deatil of signup   </br> Email: Krazzyvir@gmail.com  </br> Password : 1028krazzyvir ]]>
+            </line>
+            <line>
+              <![CDATA[</br>step 4:click on signupnow button]]>
+            </line>
+            <line>
+              <![CDATA[<br></br>PASS]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- flipkart_sign -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.flipkart.verification.Index@1dfafd1]" name="tearDown" is-config="true" duration-ms="734" started-at="2014-04-15T10:55:56Z" finished-at="2014-04-15T10:55:56Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=flipkart_sign status=SUCCESS method=Index.flipkart_sign()[pri:0, instance:com.flipkart.verification.Index@1dfafd1] output=</br>step 1:click on login button ]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp(java.lang.reflect.Method)[pri:0, instance:com.flipkart.verification.Index@1dfafd1]" name="setUp" is-config="true" duration-ms="20787" started-at="2014-04-15T10:55:56Z" finished-at="2014-04-15T10:56:17Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.flipkart.verification.Index.dataproviderusedemo(java.lang.String)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.flipkart.verification.Index@1dfafd1]" name="tearDown" is-config="true" duration-ms="610" started-at="2014-04-15T10:56:17Z" finished-at="2014-04-15T10:56:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=dataproviderusedemo status=SUCCESS method=Index.dataproviderusedemo(java.lang.String)[pri:0, instance:com.flipkart.verification.Index@1dfafd1] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="dataproviderusedemo(java.lang.String)[pri:0, instance:com.flipkart.verification.Index@1dfafd1]" name="dataproviderusedemo" duration-ms="0" started-at="2014-04-15T10:56:17Z" data-provider="dataprovidedemo" finished-at="2014-04-15T10:56:17Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[viral]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dataproviderusedemo -->
+        <test-method status="PASS" signature="setUp(java.lang.reflect.Method)[pri:0, instance:com.flipkart.verification.Index@1dfafd1]" name="setUp" is-config="true" duration-ms="18196" started-at="2014-04-15T10:56:18Z" finished-at="2014-04-15T10:56:36Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.flipkart.verification.Index.dataproviderusedemo(java.lang.String)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="dataproviderusedemo(java.lang.String)[pri:0, instance:com.flipkart.verification.Index@1dfafd1]" name="dataproviderusedemo" duration-ms="15" started-at="2014-04-15T10:56:36Z" data-provider="dataprovidedemo" finished-at="2014-04-15T10:56:36Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[mahesh]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dataproviderusedemo -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.flipkart.verification.Index@1dfafd1]" name="tearDown" is-config="true" duration-ms="532" started-at="2014-04-15T10:56:36Z" finished-at="2014-04-15T10:56:37Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=dataproviderusedemo status=SUCCESS method=Index.dataproviderusedemo(java.lang.String)[pri:0, instance:com.flipkart.verification.Index@1dfafd1] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp(java.lang.reflect.Method)[pri:0, instance:com.flipkart.verification.Index@1dfafd1]" name="setUp" is-config="true" duration-ms="18252" started-at="2014-04-15T10:56:37Z" finished-at="2014-04-15T10:56:55Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.flipkart.verification.Index.dataproviderusedemo(java.lang.String)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="dataproviderusedemo(java.lang.String)[pri:0, instance:com.flipkart.verification.Index@1dfafd1]" name="dataproviderusedemo" duration-ms="0" started-at="2014-04-15T10:56:55Z" data-provider="dataprovidedemo" finished-at="2014-04-15T10:56:55Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[manoj]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dataproviderusedemo -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.flipkart.verification.Index@1dfafd1]" name="tearDown" is-config="true" duration-ms="579" started-at="2014-04-15T10:56:55Z" finished-at="2014-04-15T10:56:55Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=dataproviderusedemo status=SUCCESS method=Index.dataproviderusedemo(java.lang.String)[pri:0, instance:com.flipkart.verification.Index@1dfafd1] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp(java.lang.reflect.Method)[pri:0, instance:com.flipkart.verification.Index@1dfafd1]" name="setUp" is-config="true" duration-ms="20334" started-at="2014-04-15T10:56:55Z" finished-at="2014-04-15T10:57:16Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.flipkart.verification.Index.test1()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="test1()[pri:0, instance:com.flipkart.verification.Index@1dfafd1]" name="test1" duration-ms="0" started-at="2014-04-15T10:57:16Z" finished-at="2014-04-15T10:57:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.flipkart.verification.Index@1dfafd1]" name="tearDown" is-config="true" duration-ms="657" started-at="2014-04-15T10:57:16Z" finished-at="2014-04-15T10:57:16Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=test1 status=SUCCESS method=Index.test1()[pri:0, instance:com.flipkart.verification.Index@1dfafd1] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp(java.lang.reflect.Method)[pri:0, instance:com.flipkart.verification.Index@1dfafd1]" name="setUp" is-config="true" duration-ms="19302" started-at="2014-04-15T10:57:16Z" finished-at="2014-04-15T10:57:36Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.flipkart.verification.Index.test2()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="test2()[pri:0, instance:com.flipkart.verification.Index@1dfafd1]" name="test2" duration-ms="0" started-at="2014-04-15T10:57:36Z" depends-on-methods="com.flipkart.verification.Index.test1" finished-at="2014-04-15T10:57:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test2 -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.flipkart.verification.Index@1dfafd1]" name="tearDown" is-config="true" duration-ms="579" started-at="2014-04-15T10:57:36Z" finished-at="2014-04-15T10:57:36Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=test2 status=SUCCESS method=Index.test2()[pri:0, instance:com.flipkart.verification.Index@1dfafd1] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.flipkart.verification.Index -->
+    </test> <!-- flipkart_search -->
+  </suite> <!-- flipkart -->
+</testng-results>

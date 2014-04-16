@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default suite]">
+  <test name="Default test(failed)">
+    <classes>
+      <class name="com.flipkart.verification.Index">
+        <methods>
+          <include name="flipkart_sign"/>
+          <include name="setUp"/>
+          <include name="flipkart_search"/>
+          <include name="tearDown"/>
+          <include name="fetchSuiteConfiguration"/>
+        </methods>
+      </class> <!-- com.flipkart.verification.Index -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

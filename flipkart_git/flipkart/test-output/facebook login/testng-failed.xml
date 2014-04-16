@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="1" verbose="10" name="Failed suite [facebook login]">
+  <parameter name="selenium.url" value="https://www.flipkart.com"/>
+  <parameter name="selenium.browser" value="firefox"/>
+  <parameter name="selenium.port" value="4444"/>
+  <parameter name="selenium.host" value="localhost"/>
+  <test name="flipkart_login(failed)">
+    <classes>
+      <class name="com.flipkart.verification.Index">
+        <methods>
+          <include name="setUp"/>
+          <include name="flipkart_login"/>
+          <include name="tearDown"/>
+          <include name="fetchSuiteConfiguration"/>
+        </methods>
+      </class> <!-- com.flipkart.verification.Index -->
+    </classes>
+  </test> <!-- flipkart_login(failed) -->
+</suite> <!-- Failed suite [facebook login] -->
