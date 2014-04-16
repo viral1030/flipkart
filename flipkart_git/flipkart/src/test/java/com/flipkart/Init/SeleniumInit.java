@@ -245,7 +245,7 @@ public class SeleniumInit implements ILoggerStatus {
 			}
 
 			driver.manage().deleteAllCookies();
-			driver.quit();
+			driver.close();
 
 		} catch (Throwable throwable) {
 			System.out.println("message from tear down"
