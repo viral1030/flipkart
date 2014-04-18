@@ -119,58 +119,5 @@ public class Index extends SeleniumInit {
 
 	}
 
-	/*
-	 * @Test public void facebook_login() //facebook login {
-	 * 
-	 * common.log("<br></br>Step 1:Enter Valid User name:''");
-	 * common.log("<br></br>Step 2:Enter Valid Password:''");
-	 * common.log("<br></br>Step 3:Click on Login Button"); DashboardPage db =
-	 * indexpage.login();
-	 * 
-	 * common.log("<br></br>Step 4:Verify user successfully loged in"); if
-	 * (db.verifyDashboard_facebook()) { //Assert.assertTrue(true);
-	 * log("<br></br>PASS");
-	 * 
-	 * } else { //Assert.assertTrue(false); log("<br></br>FAIL");
-	 * 
-	 * }
-	 * 
-	 * }
-	 * 
-	 * @Test public void facebook_post() {
-	 * 
-	 * DashboardPage db=indexpage.post_fb(); if (db.verifyfacebook_post()) {
-	 * Assert.assertTrue(true); log("<br></br>PASS");
-	 * 
-	 * } else { Assert.assertTrue(false); log("<br></br>FAIL");
-	 * 
-	 * }
-	 * 
-	 * 
-	 * 
-	 * 
-	 * }
-	 * 
-	 * 
-	 * 
-	 * 
-	 * @Test public void google_search() {
-	 * 
-	 * DashboardPage db=indexpage.google_search();
-	 * 
-	 * 
-	 * if (db.verify_google()) {
-	 * 
-	 * log("<br></br>PASS");
-	 * 
-	 * } else {
-	 * 
-	 * log("<br></br>FAIL");
-	 * 
-	 * }
-	 * 
-	 * 
-	 * }
-	 */
 
 }
