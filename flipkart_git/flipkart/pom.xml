@@ -94,9 +94,9 @@
 						</configuration>
 					</execution>
 					<execution>
-						<id>verify</id>
+						<id>validate</id>
 						<goals>
-							<goal>verify</goal>
+							<goal>validate</goal>
 						</goals>
 					</execution>
 				</executions>
