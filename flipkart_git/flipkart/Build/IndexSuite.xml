@@ -1,4 +1,3 @@
-
 <?xml version="1.0" encoding="UTF-8"?>
 <suite name="flipkart" verbose="10" parallel="methods" thread-count="5">
 
