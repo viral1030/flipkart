@@ -23,7 +23,7 @@
     <div class="top-banner-root">
       <span class="top-banner-title-font">Test results</span>
       <br/>
-      <span class="top-banner-font-1">1 suite</span>
+      <span class="top-banner-font-1">1 suite, 2 failed tests</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -37,7 +37,7 @@
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
             <a href="#" class="navigator-link" panel-name="suite-flipkart">
-              <span class="suite-name border-skipped">flipkart</span>
+              <span class="suite-name border-failed">flipkart</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -90,51 +90,60 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">7 methods,  7 skipped,  </span>
+                    <span class="method-stats">7 methods, 2 failed,   5 passed</span>
                   </li>
                   <li>
-                    <span class="method-list-title skipped">Skipped methods</span>
-                    <span class="show-or-hide-methods skipped">
-                      <a href="#" panel-name="suite-flipkart" class="hide-methods skipped suite-flipkart"> (hide)</a> <!-- hide-methods skipped suite-flipkart -->
-                      <a href="#" panel-name="suite-flipkart" class="show-methods skipped suite-flipkart"> (show)</a> <!-- show-methods skipped suite-flipkart -->
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-flipkart" class="hide-methods failed suite-flipkart"> (hide)</a> <!-- hide-methods failed suite-flipkart -->
+                      <a href="#" panel-name="suite-flipkart" class="show-methods failed suite-flipkart"> (show)</a> <!-- show-methods failed suite-flipkart -->
                     </span>
-                    <div class="method-list-content skipped suite-flipkart">
+                    <div class="method-list-content failed suite-flipkart">
                       <span>
-                        <img width="3%" src="skipped.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-flipkart" title="com.flipkart.verification.Index" hash-for-method="dataproviderusedemo(manoj)">dataproviderusedemo(manoj)</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img width="3%" src="skipped.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-flipkart" title="com.flipkart.verification.Index" hash-for-method="dataproviderusedemo(viral)">dataproviderusedemo(viral)</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img width="3%" src="skipped.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-flipkart" title="com.flipkart.verification.Index" hash-for-method="dataproviderusedemo(mahesh)">dataproviderusedemo(mahesh)</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img width="3%" src="skipped.png"/>
+                        <img width="3%" src="failed.png"/>
                         <a href="#" class="method navigator-link" panel-name="suite-flipkart" title="com.flipkart.verification.Index" hash-for-method="flipkart_search">flipkart_search</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
-                        <img width="3%" src="skipped.png"/>
+                        <img width="3%" src="failed.png"/>
                         <a href="#" class="method navigator-link" panel-name="suite-flipkart" title="com.flipkart.verification.Index" hash-for-method="flipkart_sign">flipkart_sign</a> <!-- method navigator-link -->
                       </span>
                       <br/>
+                    </div> <!-- method-list-content failed suite-flipkart -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-flipkart" class="hide-methods passed suite-flipkart"> (hide)</a> <!-- hide-methods passed suite-flipkart -->
+                      <a href="#" panel-name="suite-flipkart" class="show-methods passed suite-flipkart"> (show)</a> <!-- show-methods passed suite-flipkart -->
+                    </span>
+                    <div class="method-list-content passed suite-flipkart">
                       <span>
-                        <img width="3%" src="skipped.png"/>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-flipkart" title="com.flipkart.verification.Index" hash-for-method="dataproviderusedemo(mahesh)">dataproviderusedemo(mahesh)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-flipkart" title="com.flipkart.verification.Index" hash-for-method="dataproviderusedemo(manoj)">dataproviderusedemo(manoj)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-flipkart" title="com.flipkart.verification.Index" hash-for-method="dataproviderusedemo(viral)">dataproviderusedemo(viral)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
                         <a href="#" class="method navigator-link" panel-name="suite-flipkart" title="com.flipkart.verification.Index" hash-for-method="test1">test1</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
-                        <img width="3%" src="skipped.png"/>
+                        <img width="3%" src="passed.png"/>
                         <a href="#" class="method navigator-link" panel-name="suite-flipkart" title="com.flipkart.verification.Index" hash-for-method="test2">test2</a> <!-- method navigator-link -->
                       </span>
                       <br/>
-                    </div> <!-- method-list-content skipped suite-flipkart -->
+                    </div> <!-- method-list-content passed suite-flipkart -->
                   </li>
                 </ul>
               </div> <!-- suite-section-content -->
@@ -146,12 +155,114 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-flipkart" class="panel flipkart">
-          <div class="suite-flipkart-class-skipped">
+          <div class="suite-flipkart-class-failed">
             <div class="main-panel-header rounded-window-top">
-              <img src="skipped.png"/>
+              <img src="failed.png"/>
               <span class="class-name">com.flipkart.verification.Index</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="flipkart_search">
+                  </a> <!-- flipkart_search -->
+                  <span class="method-name">flipkart_search</span>
+                  <div class="stack-trace">org.openqa.selenium.UnsupportedCommandException: 
+Command duration or timeout: 1.99 seconds
+Build info: version: &apos;2.33.0&apos;, revision: &apos;4e90c97&apos;, time: &apos;2013-05-22 15:32:38&apos;
+System info: os.name: &apos;Windows Vista&apos;, os.arch: &apos;x86&apos;, os.version: &apos;6.2&apos;, java.version: &apos;1.6.0_01&apos;
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities [{platform=XP, acceptSslCerts=true, javascriptEnabled=true, browserName=firefox, rotatable=false, locationContextEnabled=true, webdriver.remote.sessionid=80b5ffa3-cafa-4598-a02c-fcca6c083ebf, version=24.0, cssSelectorsEnabled=true, databaseEnabled=true, handlesAlerts=true, browserConnectionEnabled=true, webStorageEnabled=true, nativeEvents=true, applicationCacheEnabled=true, takesScreenshot=true}]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:39)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:27)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:513)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:191)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:145)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:554)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:268)
+	at org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:89)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:41)
+	at $Proxy10.sendKeys(Unknown Source)
+	at com.flipkart.page.indexpage.IndexPage.flipkart_search(IndexPage.java:137)
+	at com.flipkart.verification.Index.flipkart_search(Index.java:71)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:885)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:907)
+	at java.lang.Thread.run(Thread.java:619)
+
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="flipkart_sign">
+                  </a> <!-- flipkart_sign -->
+                  <span class="method-name">flipkart_sign</span>
+                  <div class="stack-trace">org.openqa.selenium.remote.SessionNotFoundException: Session ID is null
+Build info: version: &apos;2.33.0&apos;, revision: &apos;4e90c97&apos;, time: &apos;2013-05-22 15:32:38&apos;
+System info: os.name: &apos;Windows Vista&apos;, os.arch: &apos;x86&apos;, os.version: &apos;6.2&apos;, java.version: &apos;1.6.0_01&apos;
+Driver info: driver.version: RemoteWebDriver
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:273)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:527)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:307)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:404)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:344)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:299)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:59)
+	at org.openqa.selenium.support.pagefactory.AjaxElementLocator.access$0(AjaxElementLocator.java:1)
+	at org.openqa.selenium.support.pagefactory.AjaxElementLocator$SlowLoadingElement.isLoaded(AjaxElementLocator.java:140)
+	at org.openqa.selenium.support.ui.SlowLoadableComponent.get(SlowLoadableComponent.java:49)
+	at org.openqa.selenium.support.pagefactory.AjaxElementLocator.findElement(AjaxElementLocator.java:70)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:34)
+	at $Proxy10.click(Unknown Source)
+	at com.flipkart.page.indexpage.IndexPage.flipkart_signup(IndexPage.java:176)
+	at com.flipkart.verification.Index.flipkart_sign(Index.java:97)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:885)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:907)
+	at java.lang.Thread.run(Thread.java:619)
+
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-flipkart-class-failed -->
+          <div class="suite-flipkart-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.flipkart.verification.Index</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="dataproviderusedemo(mahesh)">
+                  </a> <!-- dataproviderusedemo(mahesh) -->
+                  <span class="method-name">dataproviderusedemo</span>
+                  <span class="parameters">(mahesh)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
                   <a name="dataproviderusedemo(manoj)">
@@ -170,28 +281,6 @@
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="dataproviderusedemo(mahesh)">
-                  </a> <!-- dataproviderusedemo(mahesh) -->
-                  <span class="method-name">dataproviderusedemo</span>
-                  <span class="parameters">(mahesh)</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="flipkart_search">
-                  </a> <!-- flipkart_search -->
-                  <span class="method-name">flipkart_search</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="flipkart_sign">
-                  </a> <!-- flipkart_sign -->
-                  <span class="method-name">flipkart_sign</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
                   <a name="test1">
                   </a> <!-- test1 -->
                   <span class="method-name">test1</span>
@@ -205,7 +294,7 @@
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-flipkart-class-skipped -->
+          </div> <!-- suite-flipkart-class-passed -->
         </div> <!-- panel flipkart -->
         <div panel-name="test-xml-flipkart" class="panel">
           <div class="main-panel-header rounded-window-top">
@@ -215,7 +304,7 @@
             <pre>
 &lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
 &lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
-&lt;suite thread-count=&quot;1&quot; verbose=&quot;10&quot; name=&quot;flipkart&quot;&gt;
+&lt;suite verbose=&quot;10&quot; name=&quot;flipkart&quot; parallel=&quot;methods&quot;&gt;
   &lt;parameter name=&quot;selenium.url&quot; value=&quot;https://www.flipkart.com&quot;/&gt;
   &lt;parameter name=&quot;selenium.browser&quot; value=&quot;firefox&quot;/&gt;
   &lt;parameter name=&quot;selenium.port&quot; value=&quot;4444&quot;/&gt;
@@ -275,27 +364,27 @@ data.addRows(7);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'flipkart_search')
 data.setCell(0, 2, 'com.flipkart.verification.Index')
-data.setCell(0, 3, 1);
+data.setCell(0, 3, 35013);
 data.setCell(1, 0, 1)
 data.setCell(1, 1, 'test1')
 data.setCell(1, 2, 'com.flipkart.verification.Index')
-data.setCell(1, 3, 1);
+data.setCell(1, 3, 51);
 data.setCell(2, 0, 2)
-data.setCell(2, 1, 'dataproviderusedemo')
+data.setCell(2, 1, 'flipkart_sign')
 data.setCell(2, 2, 'com.flipkart.verification.Index')
-data.setCell(2, 3, 0);
+data.setCell(2, 3, 5);
 data.setCell(3, 0, 3)
 data.setCell(3, 1, 'dataproviderusedemo')
 data.setCell(3, 2, 'com.flipkart.verification.Index')
-data.setCell(3, 3, 0);
+data.setCell(3, 3, 1);
 data.setCell(4, 0, 4)
 data.setCell(4, 1, 'test2')
 data.setCell(4, 2, 'com.flipkart.verification.Index')
-data.setCell(4, 3, 0);
+data.setCell(4, 3, 1);
 data.setCell(5, 0, 5)
-data.setCell(5, 1, 'flipkart_sign')
+data.setCell(5, 1, 'dataproviderusedemo')
 data.setCell(5, 2, 'com.flipkart.verification.Index')
-data.setCell(5, 3, 0);
+data.setCell(5, 3, 1);
 data.setCell(6, 0, 6)
 data.setCell(6, 1, 'dataproviderusedemo')
 data.setCell(6, 2, 'com.flipkart.verification.Index')
@@ -304,7 +393,7 @@ window.suiteTableData['flipkart']= { tableData: data, tableDiv: 'times-div-flipk
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 2 ms</span>
+              <span class="suite-total-time">Total running time: 35 seconds</span>
               <div id="times-div-flipkart">
               </div> <!-- times-div-flipkart -->
             </div> <!-- times-div -->
@@ -316,38 +405,24 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="reporter-method-div">
-              <span class="reporter-method-name">dataproviderusedemo(manoj)</span>
-              <div class="reporter-method-output-div">
-                <span class="reporter-method-output"><br> <b>Please look to the screenshot - </b></span>
-              </div> <!-- reporter-method-output-div -->
-            </div> <!-- reporter-method-div -->
-            <div class="reporter-method-div">
               <span class="reporter-method-name">flipkart_search</span>
               <div class="reporter-method-output-div">
-                <span class="reporter-method-output"><br> <b>Please look to the screenshot - </b></span>
-              </div> <!-- reporter-method-output-div -->
-            </div> <!-- reporter-method-div -->
-            <div class="reporter-method-div">
-              <span class="reporter-method-name">dataproviderusedemo(viral)</span>
-              <div class="reporter-method-output-div">
+                <span class="reporter-method-output"></br>step 1: open the flipcart homepage</span>
+                <span class="reporter-method-output"></br>step 2: enter the keyword into searchbox : 'nokia' </span>
+                <span class="reporter-method-output"></br>step 3: click on search button </span>
+                <span class="reporter-method-output"></br>step 4:  click on price range filter price range : Rs. 10001 - Rs. 18000 </span>
+                <span class="reporter-method-output"></br>step 5: click on Brand filter 1</span>
+                <span class="reporter-method-output"></br>step 6: click on Brand filter 2</span>
                 <span class="reporter-method-output"><br> <b>Please look to the screenshot - </b></span>
               </div> <!-- reporter-method-output-div -->
             </div> <!-- reporter-method-div -->
             <div class="reporter-method-div">
               <span class="reporter-method-name">flipkart_sign</span>
               <div class="reporter-method-output-div">
-                <span class="reporter-method-output"><br> <b>Please look to the screenshot - </b></span>
-              </div> <!-- reporter-method-output-div -->
-            </div> <!-- reporter-method-div -->
-            <div class="reporter-method-div">
-              <span class="reporter-method-name">test1</span>
-              <div class="reporter-method-output-div">
-                <span class="reporter-method-output"><br> <b>Please look to the screenshot - </b></span>
-              </div> <!-- reporter-method-output-div -->
-            </div> <!-- reporter-method-div -->
-            <div class="reporter-method-div">
-              <span class="reporter-method-name">dataproviderusedemo(mahesh)</span>
-              <div class="reporter-method-output-div">
+                <span class="reporter-method-output"></br>step 1:click on login button </span>
+                <span class="reporter-method-output"></br>step 2:click on signup button </span>
+                <span class="reporter-method-output"></br>step 3:enter the deatil of signup   </br> Email: Krazzyvir@gmail.com  </br> Password : 1028krazzyvir </span>
+                <span class="reporter-method-output"></br>step 4:click on signupnow button</span>
                 <span class="reporter-method-output"><br> <b>Please look to the screenshot - </b></span>
               </div> <!-- reporter-method-output-div -->
             </div> <!-- reporter-method-div -->
@@ -375,62 +450,96 @@ return data;
             <div class="chronological-class">
               <div class="chronological-class-name">com.flipkart.verification.Index</div> <!-- chronological-class-name -->
               <div class="configuration-test before">
-                <span class="method-name">fetchSuiteConfiguration(org.testng.TestRunner@ab54eb)</span>
+                <span class="method-name">fetchSuiteConfiguration(org.testng.TestRunner@cf710e)</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-test before -->
               <div class="configuration-method before">
-                <img src="failed.png">
-                </img>
+                <span class="method-name">setUp(public void com.flipkart.verification.Index.test1())</span>
+                <span class="method-start">112 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(public void com.flipkart.verification.Index.flipkart_sign())</span>
+                <span class="method-start">112 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
                 <span class="method-name">setUp(public void com.flipkart.verification.Index.flipkart_search())</span>
-                <span class="method-start">54 ms</span>
+                <span class="method-start">112 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(public void com.flipkart.verification.Index.dataproviderusedemo(java.lang.String))</span>
+                <span class="method-start">112 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
-                <span class="method-name">flipkart_search</span>
-                <span class="method-start">6873 ms</span>
+                <span class="method-name">test1</span>
+                <span class="method-start">62866 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
-                <span class="method-name">tearDown([TestResult name=flipkart_search status=SKIP method=Index.flipkart_search()[pri:0, instance:com.flip...)</span>
-                <span class="method-start">6874 ms</span>
-              </div> <!-- configuration-method after -->
-              <div class="test-method">
-                <span class="method-name">flipkart_sign</span>
-                <span class="method-start">6881 ms</span>
-              </div> <!-- test-method -->
-              <div class="configuration-method after">
-                <span class="method-name">tearDown([TestResult name=flipkart_sign status=SKIP method=Index.flipkart_sign()[pri:0, instance:com.flipkart...)</span>
-                <span class="method-start">6882 ms</span>
+                <span class="method-name">tearDown([TestResult name=test1 status=SUCCESS method=Index.test1()[pri:0, instance:com.flipkart.verification...)</span>
+                <span class="method-start">62918 ms</span>
               </div> <!-- configuration-method after -->
               <div class="test-method">
                 <span class="method-name">dataproviderusedemo(viral)</span>
-                <span class="method-start">6884 ms</span>
+                <span class="method-start">71567 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
-                <span class="method-name">tearDown([TestResult name=dataproviderusedemo status=SKIP method=Index.dataproviderusedemo(java.lang.String)[...)</span>
-                <span class="method-start">6884 ms</span>
+                <span class="method-name">tearDown([TestResult name=dataproviderusedemo status=SUCCESS method=Index.dataproviderusedemo(java.lang.Strin...)</span>
+                <span class="method-start">71569 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">flipkart_search</span>
+                <span class="method-start">76802 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(public void com.flipkart.verification.Index.dataproviderusedemo(java.lang.String))</span>
+                <span class="method-start">111733 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(public void com.flipkart.verification.Index.test2())</span>
+                <span class="method-start">111742 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">flipkart_sign</span>
+                <span class="method-start">111750 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=flipkart_sign status=FAILURE method=Index.flipkart_sign()[pri:0, instance:com.flipk...)</span>
+                <span class="method-start">111760 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=flipkart_search status=FAILURE method=Index.flipkart_search()[pri:0, instance:com.f...)</span>
+                <span class="method-start">111818 ms</span>
               </div> <!-- configuration-method after -->
               <div class="test-method">
                 <span class="method-name">dataproviderusedemo(mahesh)</span>
-                <span class="method-start">6885 ms</span>
+                <span class="method-start">154910 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
-                <span class="method-name">tearDown([TestResult name=dataproviderusedemo status=SKIP method=Index.dataproviderusedemo(java.lang.String)[...)</span>
-                <span class="method-start">6886 ms</span>
+                <span class="method-name">tearDown([TestResult name=dataproviderusedemo status=SUCCESS method=Index.dataproviderusedemo(java.lang.Strin...)</span>
+                <span class="method-start">154911 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(public void com.flipkart.verification.Index.dataproviderusedemo(java.lang.String))</span>
+                <span class="method-start">177768 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">test2</span>
+                <span class="method-start">177772 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=test2 status=SUCCESS method=Index.test2()[pri:0, instance:com.flipkart.verification...)</span>
+                <span class="method-start">177774 ms</span>
               </div> <!-- configuration-method after -->
               <div class="test-method">
                 <span class="method-name">dataproviderusedemo(manoj)</span>
-                <span class="method-start">6887 ms</span>
+                <span class="method-start">516731 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
-                <span class="method-name">tearDown([TestResult name=dataproviderusedemo status=SKIP method=Index.dataproviderusedemo(java.lang.String)[...)</span>
-                <span class="method-start">6888 ms</span>
-              </div> <!-- configuration-method after -->
-              <div class="test-method">
-                <span class="method-name">test1</span>
-                <span class="method-start">6888 ms</span>
-              </div> <!-- test-method -->
-              <div class="configuration-method after">
-                <span class="method-name">tearDown([TestResult name=test1 status=SKIP method=Index.test1()[pri:0, instance:com.flipkart.verification.In...)</span>
-                <span class="method-start">6889 ms</span>
+                <span class="method-name">tearDown([TestResult name=dataproviderusedemo status=SUCCESS method=Index.dataproviderusedemo(java.lang.Strin...)</span>
+                <span class="method-start">516732 ms</span>
               </div> <!-- configuration-method after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

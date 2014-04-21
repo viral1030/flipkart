@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>flipkart_search</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>0/0/7</td>
+<td>Tests passed/Failed/Skipped:</td><td>5/2/0</td>
 </tr><tr>
-<td>Started on:</td><td>Fri Apr 18 10:39:36 IST 2014</td>
+<td>Started on:</td><td>Mon Apr 21 16:28:40 IST 2014</td>
 </tr>
-<tr><td>Total time:</td><td>6 seconds (6894 ms)</td>
+<tr><td>Total time:</td><td>518 seconds (518158 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -68,35 +68,33 @@ function toggleAllBoxes() {
 </table><p/>
 <small><i>(Hover the method name to see the test class name)</i></small><p/>
 <table width='100%' border='1' class='invocation-failed'>
-<tr><td colspan='4' align='center'><b>FAILED CONFIGURATIONS</b></td></tr>
+<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
 <tr><td><b>Test method</b></td>
 <td width="30%"><b>Exception</b></td>
 <td width="10%"><b>Time (seconds)</b></td>
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='com.flipkart.verification.Index.setUp()'><b>setUp</b><br>Test class: com.flipkart.verification.Index<br>Parameters: public void com.flipkart.verification.Index.flipkart_search()</td>
-<td><div><pre>org.openqa.selenium.WebDriverException: Error forwarding the new session Empty pool of VM for setup {platform=ANY, firefox_profile=UEsDBBQACAAIAPRUkkQAAAAAAAAAAAAAAAAHAAAAdXNlci5qc41WTW/bMAy971cMOW3AInQreuh2
-2podBhTooSh2FGSZjtXIkkBRcfPvR9np0qT+utkOKfE9Pj4mRUAZEKpPK3ghcNF4F0UKpSIQzpOp
-Dk8csvrysVI2wucfH9IpI4JOaOggWoVOgiNA47ay+wwi1r6V3mkYTi5hT97bKADRo+ZrvQUBThUW
-Sk4hTBcZ7ws8RQ9cUKBv+U2UvhGtcaVvRZmaMHmFA2o97kRNFAR/X2ul6zEAfG5pYj5M+gBOlqmD
-b70aqchXlTUO1iqEKJS1zE9xkCVUKlmag1xYr3fWRFqGOpJCSkEEtc31X51HZeZ3hgSBhQYIDwLh
-GTSN0JKhNupF6hp9AzJqNIEkJifJNPn41e3t7eo8J3BooChIFbLxpbLTdTMni7r6Jk4l8sNBr/CO
-7WyUYxbwtVuDEC95qxnokbuVKnyi74VVbrca1kt/w/q1wXwIpTjTIFCo6yOWaRinLi0UfOuyCLOA
-N8fnjcFJ2Fz2TnQqdtD208Lx34aDfz/d/xR+z4NrymE23+g2d2nTE/+o+YZMy9eriYOvhdIawpgW
-R0ynBbVbymIvze78EYRRVdA989HTpE964JIUC2q/3DVbKEo0TL3sSZLJMUWRwUgNSHGyyf+F8ToQ
-+bK/NbjHLHouYtzo8vQvGvtntVd9IMuJOgXkW/64u97h52031CbWh3X+OagY1xbclurcq5ubiTSu
-cM1bxLGL5VvXAXDNoftueV0K7o0+rd9uz7s8p7nzjk3P4tERpoNOw5frQqfse2VGs3XesU030BSA
-j93riMWcRNKDkk4Rv0rYsz6nJcJuHTuUD+7O+jin4MpY4Cfh0TCJMnhr9IFzrmfiI6HRJC/TpgUf
-Y+LlcxK84Q8wbGuXLs72YHVeXQkzt6vVyNjXYK3gja93m34r/+p/WWi4lbcl4D0v6YXW0ijLZM+s
-vHP1xVQ0hqRxU/LLI4sQPJLk/xnyObKysl2YXjNzCt8baLPCG/My+z8DYjdH5BkGQteiiv1ValSx
-ns59I7YHVv8S9GeVzZnlxKoYTP0HUEsHCLUx1nkOAwAADQsAAFBLAQIUABQACAAIAPRUkkS1MdZ5
-DgMAAA0LAAAHAAAAAAAAAAAAAAAAAAAAAAB1c2VyLmpzUEsFBgAAAAABAAEANQAAAEMDAAAAAA==
-, javascriptEnabled=true, browserName=firefox, version=}
-Command duration or timeout: 2.30 seconds
+<td title='com.flipkart.verification.Index.flipkart_search()'><b>flipkart_search</b><br>Test class: com.flipkart.verification.Index<br/>
+<a href="#Output-11228395" onClick='toggleBox("Output-11228395", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-11228395" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-11228395">
+</br>step 1: open the flipcart homepage<br/>
+</br>step 2: enter the keyword into searchbox : 'nokia' <br/>
+</br>step 3: click on search button <br/>
+</br>step 4:  click on price range filter price range : Rs. 10001 - Rs. 18000 <br/>
+</br>step 5: click on Brand filter 1<br/>
+</br>step 6: click on Brand filter 2<br/>
+<br> <b>Please look to the screenshot - </b><br/>
+</div>
+</td>
+<td><div><pre>org.openqa.selenium.UnsupportedCommandException: 
+Command duration or timeout: 1.99 seconds
 Build info: version: &apos;2.33.0&apos;, revision: &apos;4e90c97&apos;, time: &apos;2013-05-22 15:32:38&apos;
 System info: os.name: &apos;Windows Vista&apos;, os.arch: &apos;x86&apos;, os.version: &apos;6.2&apos;, java.version: &apos;1.6.0_01&apos;
 Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities [{platform=XP, acceptSslCerts=true, javascriptEnabled=true, browserName=firefox, rotatable=false, locationContextEnabled=true, webdriver.remote.sessionid=80b5ffa3-cafa-4598-a02c-fcca6c083ebf, version=24.0, cssSelectorsEnabled=true, databaseEnabled=true, handlesAlerts=true, browserConnectionEnabled=true, webStorageEnabled=true, nativeEvents=true, applicationCacheEnabled=true, takesScreenshot=true}]
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:39)
 	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:27)
@@ -104,101 +102,36 @@ Driver info: org.openqa.selenium.remote.RemoteWebDriver
 	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:191)
 	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:145)
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:554)
-	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:216)
-	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:111)
-	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:129)
-	at com.flipkart.Init.SeleniumInit.setUp(SeleniumInit.java:203)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:268)
+	at org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:89)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:41)
+	at $Proxy10.sendKeys(Unknown Source)
+	at com.flipkart.page.indexpage.IndexPage.flipkart_search(IndexPage.java:137)
+	at com.flipkart.verification.Index.flipkart_search(Index.java:71)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
 	at java.lang.reflect.Method.invoke(Method.java:597)
 	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
-	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:564)
-	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:213)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:653)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
 	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
 	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
 	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
 	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
-	at org.testng.TestRunner.privateRun(TestRunner.java:767)
-	at org.testng.TestRunner.run(TestRunner.java:617)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
-	at org.testng.TestNG.run(TestNG.java:1057)
-	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
-Caused by: org.openqa.grid.common.exception.GridException: Error forwarding the new session Empty pool of VM for setup {platform=ANY, firefox_profile=UEsDBBQACAAIAPRUkkQAAAAAAAAAAAAAAAAHAAAAdXNlci5qc41WTW/bMAy971cMOW3AInQreuh2
-2podBhTooSh2FGSZjtXIkkBRcfPvR9np0qT+utkOKfE9Pj4mRUAZEKpPK3ghcNF4F0UKpSIQzpOp
-Dk8csvrysVI2wucfH9IpI4JOaOggWoVOgiNA47ay+wwi1r6V3mkYTi5hT97bKADRo+ZrvQUBThUW
-Sk4hTBcZ7ws8RQ9cUKBv+U2UvhGtcaVvRZmaMHmFA2o97kRNFAR/X2ul6zEAfG5pYj5M+gBOlqmD
-b70aqchXlTUO1iqEKJS1zE9xkCVUKlmag1xYr3fWRFqGOpJCSkEEtc31X51HZeZ3hgSBhQYIDwLh
-GTSN0JKhNupF6hp9AzJqNIEkJifJNPn41e3t7eo8J3BooChIFbLxpbLTdTMni7r6Jk4l8sNBr/CO
-7WyUYxbwtVuDEC95qxnokbuVKnyi74VVbrca1kt/w/q1wXwIpTjTIFCo6yOWaRinLi0UfOuyCLOA
-N8fnjcFJ2Fz2TnQqdtD208Lx34aDfz/d/xR+z4NrymE23+g2d2nTE/+o+YZMy9eriYOvhdIawpgW
-R0ynBbVbymIvze78EYRRVdA989HTpE964JIUC2q/3DVbKEo0TL3sSZLJMUWRwUgNSHGyyf+F8ToQ
-+bK/NbjHLHouYtzo8vQvGvtntVd9IMuJOgXkW/64u97h52031CbWh3X+OagY1xbclurcq5ubiTSu
-cM1bxLGL5VvXAXDNoftueV0K7o0+rd9uz7s8p7nzjk3P4tERpoNOw5frQqfse2VGs3XesU030BSA
-j93riMWcRNKDkk4Rv0rYsz6nJcJuHTuUD+7O+jin4MpY4Cfh0TCJMnhr9IFzrmfiI6HRJC/TpgUf
-Y+LlcxK84Q8wbGuXLs72YHVeXQkzt6vVyNjXYK3gja93m34r/+p/WWi4lbcl4D0v6YXW0ijLZM+s
-vHP1xVQ0hqRxU/LLI4sQPJLk/xnyObKysl2YXjNzCt8baLPCG/My+z8DYjdH5BkGQteiiv1ValSx
-ns59I7YHVv8S9GeVzZnlxKoYTP0HUEsHCLUx1nkOAwAADQsAAFBLAQIUABQACAAIAPRUkkS1MdZ5
-DgMAAA0LAAAHAAAAAAAAAAAAAAAAAAAAAAB1c2VyLmpzUEsFBgAAAAABAAEANQAAAEMDAAAAAA==
-, javascriptEnabled=true, browserName=firefox, version=}
-	at org.openqa.grid.web.servlet.handler.RequestHandler.process(RequestHandler.java:112)
-	at org.openqa.grid.web.servlet.DriverServlet.process(DriverServlet.java:84)
-	at org.openqa.grid.web.servlet.DriverServlet.doPost(DriverServlet.java:68)
-	at javax.servlet.http.HttpServlet.service(HttpServlet.java:727)
-	at javax.servlet.http.HttpServlet.service(HttpServlet.java:820)
-	at org.seleniumhq.jetty7.servlet.ServletHolder.handle(ServletHolder.java:565)
-	at org.seleniumhq.jetty7.servlet.ServletHandler.doHandle(ServletHandler.java:479)
-	at org.seleniumhq.jetty7.server.session.SessionHandler.doHandle(SessionHandler.java:225)
-	at org.seleniumhq.jetty7.server.handler.ContextHandler.doHandle(ContextHandler.java:1031)
-	at org.seleniumhq.jetty7.servlet.ServletHandler.doScope(ServletHandler.java:406)
-	at org.seleniumhq.jetty7.server.session.SessionHandler.doScope(SessionHandler.java:186)
-	at org.seleniumhq.jetty7.server.handler.ContextHandler.doScope(ContextHandler.java:965)
-	at org.seleniumhq.jetty7.server.handler.ScopedHandler.handle(ScopedHandler.java:117)
-	at org.seleniumhq.jetty7.server.handler.HandlerWrapper.handle(HandlerWrapper.java:111)
-	at org.seleniumhq.jetty7.server.Server.handle(Server.java:349)
-	at org.seleniumhq.jetty7.server.AbstractHttpConnection.handleRequest(AbstractHttpConnection.java:452)
-	at org.seleniumhq.jetty7.server.BlockingHttpConnection.handleRequest(BlockingHttpConnection.java:47)
-	at org.seleniumhq.jetty7.server.AbstractHttpConnection.content(AbstractHttpConnection.java:894)
-	at org.seleniumhq.jetty7.server.AbstractHttpConnection$RequestHandler.content(AbstractHttpConnection.java:948)
-	at org.seleniumhq.jetty7.http.HttpParser.parseNext(HttpParser.java:857)
-	at org.seleniumhq.jetty7.http.HttpParser.parseAvailable(HttpParser.java:235)
-	at org.seleniumhq.jetty7.server.BlockingHttpConnection.handle(BlockingHttpConnection.java:66)
-	at org.seleniumhq.jetty7.server.bio.SocketConnector$ConnectorEndPoint.run(SocketConnector.java:254)
-	at org.seleniumhq.jetty7.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:599)
-	at org.seleniumhq.jetty7.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:534)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:885)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:907)
 	at java.lang.Thread.run(Thread.java:619)
-</pre></div><a href='#' onClick='toggleBox("stack-trace2550265", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace2550265'><pre>org.openqa.selenium.WebDriverException: Error forwarding the new session Empty pool of VM for setup {platform=ANY, firefox_profile=UEsDBBQACAAIAPRUkkQAAAAAAAAAAAAAAAAHAAAAdXNlci5qc41WTW/bMAy971cMOW3AInQreuh2
-2podBhTooSh2FGSZjtXIkkBRcfPvR9np0qT+utkOKfE9Pj4mRUAZEKpPK3ghcNF4F0UKpSIQzpOp
-Dk8csvrysVI2wucfH9IpI4JOaOggWoVOgiNA47ay+wwi1r6V3mkYTi5hT97bKADRo+ZrvQUBThUW
-Sk4hTBcZ7ws8RQ9cUKBv+U2UvhGtcaVvRZmaMHmFA2o97kRNFAR/X2ul6zEAfG5pYj5M+gBOlqmD
-b70aqchXlTUO1iqEKJS1zE9xkCVUKlmag1xYr3fWRFqGOpJCSkEEtc31X51HZeZ3hgSBhQYIDwLh
-GTSN0JKhNupF6hp9AzJqNIEkJifJNPn41e3t7eo8J3BooChIFbLxpbLTdTMni7r6Jk4l8sNBr/CO
-7WyUYxbwtVuDEC95qxnokbuVKnyi74VVbrca1kt/w/q1wXwIpTjTIFCo6yOWaRinLi0UfOuyCLOA
-N8fnjcFJ2Fz2TnQqdtD208Lx34aDfz/d/xR+z4NrymE23+g2d2nTE/+o+YZMy9eriYOvhdIawpgW
-R0ynBbVbymIvze78EYRRVdA989HTpE964JIUC2q/3DVbKEo0TL3sSZLJMUWRwUgNSHGyyf+F8ToQ
-+bK/NbjHLHouYtzo8vQvGvtntVd9IMuJOgXkW/64u97h52031CbWh3X+OagY1xbclurcq5ubiTSu
-cM1bxLGL5VvXAXDNoftueV0K7o0+rd9uz7s8p7nzjk3P4tERpoNOw5frQqfse2VGs3XesU030BSA
-j93riMWcRNKDkk4Rv0rYsz6nJcJuHTuUD+7O+jin4MpY4Cfh0TCJMnhr9IFzrmfiI6HRJC/TpgUf
-Y+LlcxK84Q8wbGuXLs72YHVeXQkzt6vVyNjXYK3gja93m34r/+p/WWi4lbcl4D0v6YXW0ijLZM+s
-vHP1xVQ0hqRxU/LLI4sQPJLk/xnyObKysl2YXjNzCt8baLPCG/My+z8DYjdH5BkGQteiiv1ValSx
-ns59I7YHVv8S9GeVzZnlxKoYTP0HUEsHCLUx1nkOAwAADQsAAFBLAQIUABQACAAIAPRUkkS1MdZ5
-DgMAAA0LAAAHAAAAAAAAAAAAAAAAAAAAAAB1c2VyLmpzUEsFBgAAAAABAAEANQAAAEMDAAAAAA==
-, javascriptEnabled=true, browserName=firefox, version=}
-Command duration or timeout: 2.30 seconds
+</pre></div><a href='#' onClick='toggleBox("stack-trace11228395", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace11228395'><pre>org.openqa.selenium.UnsupportedCommandException: 
+Command duration or timeout: 1.99 seconds
 Build info: version: &apos;2.33.0&apos;, revision: &apos;4e90c97&apos;, time: &apos;2013-05-22 15:32:38&apos;
 System info: os.name: &apos;Windows Vista&apos;, os.arch: &apos;x86&apos;, os.version: &apos;6.2&apos;, java.version: &apos;1.6.0_01&apos;
 Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities [{platform=XP, acceptSslCerts=true, javascriptEnabled=true, browserName=firefox, rotatable=false, locationContextEnabled=true, webdriver.remote.sessionid=80b5ffa3-cafa-4598-a02c-fcca6c083ebf, version=24.0, cssSelectorsEnabled=true, databaseEnabled=true, handlesAlerts=true, browserConnectionEnabled=true, webStorageEnabled=true, nativeEvents=true, applicationCacheEnabled=true, takesScreenshot=true}]
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:39)
 	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:27)
@@ -206,192 +139,138 @@ Driver info: org.openqa.selenium.remote.RemoteWebDriver
 	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:191)
 	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:145)
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:554)
-	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:216)
-	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:111)
-	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:129)
-	at com.flipkart.Init.SeleniumInit.setUp(SeleniumInit.java:203)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:268)
+	at org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:89)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:41)
+	at $Proxy10.sendKeys(Unknown Source)
+	at com.flipkart.page.indexpage.IndexPage.flipkart_search(IndexPage.java:137)
+	at com.flipkart.verification.Index.flipkart_search(Index.java:71)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
 	at java.lang.reflect.Method.invoke(Method.java:597)
 	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
-	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:564)
-	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:213)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:653)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
 	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
 	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
 	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
 	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
-	at org.testng.TestRunner.privateRun(TestRunner.java:767)
-	at org.testng.TestRunner.run(TestRunner.java:617)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
-	at org.testng.TestNG.run(TestNG.java:1057)
-	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
-Caused by: org.openqa.grid.common.exception.GridException: Error forwarding the new session Empty pool of VM for setup {platform=ANY, firefox_profile=UEsDBBQACAAIAPRUkkQAAAAAAAAAAAAAAAAHAAAAdXNlci5qc41WTW/bMAy971cMOW3AInQreuh2
-2podBhTooSh2FGSZjtXIkkBRcfPvR9np0qT+utkOKfE9Pj4mRUAZEKpPK3ghcNF4F0UKpSIQzpOp
-Dk8csvrysVI2wucfH9IpI4JOaOggWoVOgiNA47ay+wwi1r6V3mkYTi5hT97bKADRo+ZrvQUBThUW
-Sk4hTBcZ7ws8RQ9cUKBv+U2UvhGtcaVvRZmaMHmFA2o97kRNFAR/X2ul6zEAfG5pYj5M+gBOlqmD
-b70aqchXlTUO1iqEKJS1zE9xkCVUKlmag1xYr3fWRFqGOpJCSkEEtc31X51HZeZ3hgSBhQYIDwLh
-GTSN0JKhNupF6hp9AzJqNIEkJifJNPn41e3t7eo8J3BooChIFbLxpbLTdTMni7r6Jk4l8sNBr/CO
-7WyUYxbwtVuDEC95qxnokbuVKnyi74VVbrca1kt/w/q1wXwIpTjTIFCo6yOWaRinLi0UfOuyCLOA
-N8fnjcFJ2Fz2TnQqdtD208Lx34aDfz/d/xR+z4NrymE23+g2d2nTE/+o+YZMy9eriYOvhdIawpgW
-R0ynBbVbymIvze78EYRRVdA989HTpE964JIUC2q/3DVbKEo0TL3sSZLJMUWRwUgNSHGyyf+F8ToQ
-+bK/NbjHLHouYtzo8vQvGvtntVd9IMuJOgXkW/64u97h52031CbWh3X+OagY1xbclurcq5ubiTSu
-cM1bxLGL5VvXAXDNoftueV0K7o0+rd9uz7s8p7nzjk3P4tERpoNOw5frQqfse2VGs3XesU030BSA
-j93riMWcRNKDkk4Rv0rYsz6nJcJuHTuUD+7O+jin4MpY4Cfh0TCJMnhr9IFzrmfiI6HRJC/TpgUf
-Y+LlcxK84Q8wbGuXLs72YHVeXQkzt6vVyNjXYK3gja93m34r/+p/WWi4lbcl4D0v6YXW0ijLZM+s
-vHP1xVQ0hqRxU/LLI4sQPJLk/xnyObKysl2YXjNzCt8baLPCG/My+z8DYjdH5BkGQteiiv1ValSx
-ns59I7YHVv8S9GeVzZnlxKoYTP0HUEsHCLUx1nkOAwAADQsAAFBLAQIUABQACAAIAPRUkkS1MdZ5
-DgMAAA0LAAAHAAAAAAAAAAAAAAAAAAAAAAB1c2VyLmpzUEsFBgAAAAABAAEANQAAAEMDAAAAAA==
-, javascriptEnabled=true, browserName=firefox, version=}
-	at org.openqa.grid.web.servlet.handler.RequestHandler.process(RequestHandler.java:112)
-	at org.openqa.grid.web.servlet.DriverServlet.process(DriverServlet.java:84)
-	at org.openqa.grid.web.servlet.DriverServlet.doPost(DriverServlet.java:68)
-	at javax.servlet.http.HttpServlet.service(HttpServlet.java:727)
-	at javax.servlet.http.HttpServlet.service(HttpServlet.java:820)
-	at org.seleniumhq.jetty7.servlet.ServletHolder.handle(ServletHolder.java:565)
-	at org.seleniumhq.jetty7.servlet.ServletHandler.doHandle(ServletHandler.java:479)
-	at org.seleniumhq.jetty7.server.session.SessionHandler.doHandle(SessionHandler.java:225)
-	at org.seleniumhq.jetty7.server.handler.ContextHandler.doHandle(ContextHandler.java:1031)
-	at org.seleniumhq.jetty7.servlet.ServletHandler.doScope(ServletHandler.java:406)
-	at org.seleniumhq.jetty7.server.session.SessionHandler.doScope(SessionHandler.java:186)
-	at org.seleniumhq.jetty7.server.handler.ContextHandler.doScope(ContextHandler.java:965)
-	at org.seleniumhq.jetty7.server.handler.ScopedHandler.handle(ScopedHandler.java:117)
-	at org.seleniumhq.jetty7.server.handler.HandlerWrapper.handle(HandlerWrapper.java:111)
-	at org.seleniumhq.jetty7.server.Server.handle(Server.java:349)
-	at org.seleniumhq.jetty7.server.AbstractHttpConnection.handleRequest(AbstractHttpConnection.java:452)
-	at org.seleniumhq.jetty7.server.BlockingHttpConnection.handleRequest(BlockingHttpConnection.java:47)
-	at org.seleniumhq.jetty7.server.AbstractHttpConnection.content(AbstractHttpConnection.java:894)
-	at org.seleniumhq.jetty7.server.AbstractHttpConnection$RequestHandler.content(AbstractHttpConnection.java:948)
-	at org.seleniumhq.jetty7.http.HttpParser.parseNext(HttpParser.java:857)
-	at org.seleniumhq.jetty7.http.HttpParser.parseAvailable(HttpParser.java:235)
-	at org.seleniumhq.jetty7.server.BlockingHttpConnection.handle(BlockingHttpConnection.java:66)
-	at org.seleniumhq.jetty7.server.bio.SocketConnector$ConnectorEndPoint.run(SocketConnector.java:254)
-	at org.seleniumhq.jetty7.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:599)
-	at org.seleniumhq.jetty7.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:534)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:885)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:907)
+	at java.lang.Thread.run(Thread.java:619)
+</pre></div></td>
+<td>35</td>
+<td>com.flipkart.verification.Index@1dfafd1</td></tr>
+<tr>
+<td title='com.flipkart.verification.Index.flipkart_sign()'><b>flipkart_sign</b><br>Test class: com.flipkart.verification.Index<br/>
+<a href="#Output-9065611" onClick='toggleBox("Output-9065611", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-9065611" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-9065611">
+</br>step 1:click on login button <br/>
+</br>step 2:click on signup button <br/>
+</br>step 3:enter the deatil of signup   </br> Email: Krazzyvir@gmail.com  </br> Password : 1028krazzyvir <br/>
+</br>step 4:click on signupnow button<br/>
+<br> <b>Please look to the screenshot - </b><br/>
+</div>
+</td>
+<td><div><pre>org.openqa.selenium.remote.SessionNotFoundException: Session ID is null
+Build info: version: &apos;2.33.0&apos;, revision: &apos;4e90c97&apos;, time: &apos;2013-05-22 15:32:38&apos;
+System info: os.name: &apos;Windows Vista&apos;, os.arch: &apos;x86&apos;, os.version: &apos;6.2&apos;, java.version: &apos;1.6.0_01&apos;
+Driver info: driver.version: RemoteWebDriver
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:273)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:527)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:307)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:404)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:344)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:299)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:59)
+	at org.openqa.selenium.support.pagefactory.AjaxElementLocator.access$0(AjaxElementLocator.java:1)
+	at org.openqa.selenium.support.pagefactory.AjaxElementLocator$SlowLoadingElement.isLoaded(AjaxElementLocator.java:140)
+	at org.openqa.selenium.support.ui.SlowLoadableComponent.get(SlowLoadableComponent.java:49)
+	at org.openqa.selenium.support.pagefactory.AjaxElementLocator.findElement(AjaxElementLocator.java:70)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:34)
+	at $Proxy10.click(Unknown Source)
+	at com.flipkart.page.indexpage.IndexPage.flipkart_signup(IndexPage.java:176)
+	at com.flipkart.verification.Index.flipkart_sign(Index.java:97)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:885)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:907)
+	at java.lang.Thread.run(Thread.java:619)
+</pre></div><a href='#' onClick='toggleBox("stack-trace9065611", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace9065611'><pre>org.openqa.selenium.remote.SessionNotFoundException: Session ID is null
+Build info: version: &apos;2.33.0&apos;, revision: &apos;4e90c97&apos;, time: &apos;2013-05-22 15:32:38&apos;
+System info: os.name: &apos;Windows Vista&apos;, os.arch: &apos;x86&apos;, os.version: &apos;6.2&apos;, java.version: &apos;1.6.0_01&apos;
+Driver info: driver.version: RemoteWebDriver
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:273)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:527)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:307)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:404)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:344)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:299)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:59)
+	at org.openqa.selenium.support.pagefactory.AjaxElementLocator.access$0(AjaxElementLocator.java:1)
+	at org.openqa.selenium.support.pagefactory.AjaxElementLocator$SlowLoadingElement.isLoaded(AjaxElementLocator.java:140)
+	at org.openqa.selenium.support.ui.SlowLoadableComponent.get(SlowLoadableComponent.java:49)
+	at org.openqa.selenium.support.pagefactory.AjaxElementLocator.findElement(AjaxElementLocator.java:70)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:34)
+	at $Proxy10.click(Unknown Source)
+	at com.flipkart.page.indexpage.IndexPage.flipkart_signup(IndexPage.java:176)
+	at com.flipkart.verification.Index.flipkart_sign(Index.java:97)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:885)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:907)
 	at java.lang.Thread.run(Thread.java:619)
 </pre></div></td>
 <td>0</td>
 <td>com.flipkart.verification.Index@1dfafd1</td></tr>
 </table><p>
-<table width='100%' border='1' class='invocation-skipped'>
-<tr><td colspan='4' align='center'><b>SKIPPED CONFIGURATIONS</b></td></tr>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
 <tr><td><b>Test method</b></td>
 <td width="30%"><b>Exception</b></td>
 <td width="10%"><b>Time (seconds)</b></td>
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='com.flipkart.verification.Index.setUp()'><b>setUp</b><br>Test class: com.flipkart.verification.Index</td>
+<td title='com.flipkart.verification.Index.dataproviderusedemo()'><b>dataproviderusedemo</b><br>Test class: com.flipkart.verification.Index<br>Parameters: viral</td>
 <td></td>
 <td>0</td>
 <td>com.flipkart.verification.Index@1dfafd1</td></tr>
 <tr>
-<td title='com.flipkart.verification.Index.setUp()'><b>setUp</b><br>Test class: com.flipkart.verification.Index</td>
+<td title='com.flipkart.verification.Index.dataproviderusedemo()'><b>dataproviderusedemo</b><br>Test class: com.flipkart.verification.Index<br>Parameters: mahesh</td>
 <td></td>
 <td>0</td>
 <td>com.flipkart.verification.Index@1dfafd1</td></tr>
 <tr>
-<td title='com.flipkart.verification.Index.setUp()'><b>setUp</b><br>Test class: com.flipkart.verification.Index</td>
+<td title='com.flipkart.verification.Index.dataproviderusedemo()'><b>dataproviderusedemo</b><br>Test class: com.flipkart.verification.Index<br>Parameters: manoj</td>
 <td></td>
 <td>0</td>
 <td>com.flipkart.verification.Index@1dfafd1</td></tr>
 <tr>
-<td title='com.flipkart.verification.Index.setUp()'><b>setUp</b><br>Test class: com.flipkart.verification.Index</td>
-<td></td>
-<td>0</td>
-<td>com.flipkart.verification.Index@1dfafd1</td></tr>
-<tr>
-<td title='com.flipkart.verification.Index.setUp()'><b>setUp</b><br>Test class: com.flipkart.verification.Index</td>
-<td></td>
-<td>0</td>
-<td>com.flipkart.verification.Index@1dfafd1</td></tr>
-</table><p>
-<table width='100%' border='1' class='invocation-skipped'>
-<tr><td colspan='4' align='center'><b>SKIPPED TESTS</b></td></tr>
-<tr><td><b>Test method</b></td>
-<td width="30%"><b>Exception</b></td>
-<td width="10%"><b>Time (seconds)</b></td>
-<td><b>Instance</b></td>
-</tr>
-<tr>
-<td title='com.flipkart.verification.Index.dataproviderusedemo()'><b>dataproviderusedemo</b><br>Test class: com.flipkart.verification.Index<br>Parameters: viral<br/>
-<a href="#Output-30408372" onClick='toggleBox("Output-30408372", this, "Show output", "Hide output");'>Show output</a>
-
-<a href="#Output-30408372" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-30408372">
-<br> <b>Please look to the screenshot - </b><br/>
-</div>
-</td>
-<td></td>
-<td>0</td>
-<td>com.flipkart.verification.Index@1dfafd1</td></tr>
-<tr>
-<td title='com.flipkart.verification.Index.dataproviderusedemo()'><b>dataproviderusedemo</b><br>Test class: com.flipkart.verification.Index<br>Parameters: mahesh<br/>
-<a href="#Output-11608737" onClick='toggleBox("Output-11608737", this, "Show output", "Hide output");'>Show output</a>
-
-<a href="#Output-11608737" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-11608737">
-<br> <b>Please look to the screenshot - </b><br/>
-</div>
-</td>
-<td></td>
-<td>0</td>
-<td>com.flipkart.verification.Index@1dfafd1</td></tr>
-<tr>
-<td title='com.flipkart.verification.Index.dataproviderusedemo()'><b>dataproviderusedemo</b><br>Test class: com.flipkart.verification.Index<br>Parameters: manoj<br/>
-<a href="#Output-31212095" onClick='toggleBox("Output-31212095", this, "Show output", "Hide output");'>Show output</a>
-
-<a href="#Output-31212095" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-31212095">
-<br> <b>Please look to the screenshot - </b><br/>
-</div>
-</td>
-<td></td>
-<td>0</td>
-<td>com.flipkart.verification.Index@1dfafd1</td></tr>
-<tr>
-<td title='com.flipkart.verification.Index.flipkart_search()'><b>flipkart_search</b><br>Test class: com.flipkart.verification.Index<br/>
-<a href="#Output-2086370" onClick='toggleBox("Output-2086370", this, "Show output", "Hide output");'>Show output</a>
-
-<a href="#Output-2086370" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-2086370">
-<br> <b>Please look to the screenshot - </b><br/>
-</div>
-</td>
-<td></td>
-<td>0</td>
-<td>com.flipkart.verification.Index@1dfafd1</td></tr>
-<tr>
-<td title='com.flipkart.verification.Index.flipkart_sign()'><b>flipkart_sign</b><br>Test class: com.flipkart.verification.Index<br/>
-<a href="#Output-961626" onClick='toggleBox("Output-961626", this, "Show output", "Hide output");'>Show output</a>
-
-<a href="#Output-961626" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-961626">
-<br> <b>Please look to the screenshot - </b><br/>
-</div>
-</td>
-<td></td>
-<td>0</td>
-<td>com.flipkart.verification.Index@1dfafd1</td></tr>
-<tr>
-<td title='com.flipkart.verification.Index.test1()'><b>test1</b><br>Test class: com.flipkart.verification.Index<br/>
-<a href="#Output-23053324" onClick='toggleBox("Output-23053324", this, "Show output", "Hide output");'>Show output</a>
-
-<a href="#Output-23053324" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-23053324">
-<br> <b>Please look to the screenshot - </b><br/>
-</div>
-</td>
+<td title='com.flipkart.verification.Index.test1()'><b>test1</b><br>Test class: com.flipkart.verification.Index</td>
 <td></td>
 <td>0</td>
 <td>com.flipkart.verification.Index@1dfafd1</td></tr>
@@ -399,7 +278,7 @@ DgMAAA0LAAAHAAAAAAAAAAAAAAAAAAAAAAB1c2VyLmpzUEsFBgAAAAABAAEANQAAAEMDAAAAAA==
 <td title='com.flipkart.verification.Index.test2()'><b>test2</b><br>Test class: com.flipkart.verification.Index</td>
 <td></td>
 <td>0</td>
-<td>null</td></tr>
+<td>com.flipkart.verification.Index@1dfafd1</td></tr>
 </table><p>
 </body>
 </html>
