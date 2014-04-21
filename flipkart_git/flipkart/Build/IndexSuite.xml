@@ -1,5 +1,6 @@
+
 <?xml version="1.0" encoding="UTF-8"?>
-<suite name="flipkart" verbose="10" parallel="false" thread-count="1">
+<suite name="flipkart" verbose="10" parallel="methods" thread-count="5">
 
 	<!-- Put IP of localhost/Grid Hub machine -->
 	<parameter name="selenium.host" value="localhost" />
